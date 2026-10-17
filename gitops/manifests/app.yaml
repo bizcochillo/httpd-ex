@@ -90,7 +90,7 @@ spec:
     spec:
       containers:
         - name: demo-apache
-          image: 'image-registry.openshift-image-registry.svc:5000/demo-builds/demo-apache:128b565'
+          image: 'image-registry.openshift-image-registry.svc:5000/demo-builds/demo-apache:265927b'
           ports:
             - containerPort: 8080
               protocol: TCP

@@ -46,11 +46,6 @@ metadata:
 spec:
   lookupPolicy:
     local: false
-  template:
-    spec:
-      containers: []
-status:
-  dockerImageRepository: 'image-registry.openshift-image-registry.svc:5000/demo-builds/demo-apache'
 ---
 kind: ImageStream
 apiVersion: image.openshift.io/v1

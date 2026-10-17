@@ -33,9 +33,6 @@ spec:
     - type: ConfigChange
     - type: ImageChange
       imageChange: {}
-  template:
-    spec:
-      containers: []
 ---
 kind: ImageStream
 apiVersion: image.openshift.io/v1
@@ -49,9 +46,6 @@ metadata:
 spec:
   lookupPolicy:
     local: false
-  template:
-    spec:
-      containers: []
 ---
 kind: ImageStream
 apiVersion: image.openshift.io/v1
@@ -74,9 +68,6 @@ spec:
         importMode: Legacy
       referencePolicy:
         type: Source
-  template:
-    spec:
-      containers: []
 ---
 kind: Deployment
 apiVersion: apps/v1
